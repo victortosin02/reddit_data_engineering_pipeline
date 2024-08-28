@@ -37,31 +37,27 @@ The pipeline is designed to:
 - Python 3.9 or higher
 
 ## System Setup
-1. Clone the repository.
-   ```bash
-    git clone https://github.com/airscholar/RedditDataEngineering.git
-   ```
-2. Create a virtual environment.
+1. Create a virtual environment.
    ```bash
     python3 -m venv venv
    ```
-3. Activate the virtual environment.
+2. Activate the virtual environment.
    ```bash
     source venv/bin/activate
    ```
-4. Install the dependencies.
+3. Install the dependencies.
    ```bash
     pip install -r requirements.txt
    ```
-5. Rename the configuration file and the credentials to the file.
+4. Rename the configuration file and the credentials to the file.
    ```bash
     mv config/config.conf.example config/config.conf
    ```
-6. Starting the containers
+5. Starting the containers
    ```bash
     docker-compose up -d
    ```
-7. Launch the Airflow web UI.
+6. Launch the Airflow web UI.
    ```bash
     open http://localhost:8080
    ```
